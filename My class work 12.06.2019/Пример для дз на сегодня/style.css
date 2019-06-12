@@ -1,0 +1,23 @@
+.conrainer {
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: auto;
+	grid-auto-flow: dense;
+}
+
+.col-xs-1 {
+	grid-column: span 1;
+}
+
+.col-xs-2 {
+	grid-column: span 2;
+}
+
+@media (min-width: 768px) {
+.col-sm-1s {
+	grid-column: span 1;
+	}
+}
+
+.hidden-sm {
+	display: none;
+}

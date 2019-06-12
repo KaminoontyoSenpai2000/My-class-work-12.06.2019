@@ -1,0 +1,46 @@
+body {
+	background-color: silver;
+}
+
+.container {
+	 display: grid;
+	 grid-template-columns: 200px 200px 200px 200px;
+	 grid-template-rows: 200px 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	 justify-content: center;
+	 grid-auto-flow: column;
+	 
+	 align-items: center;
+}
+
+.img-stars {
+	width: 15px; 
+	display: inline-block;
+}
+
+.img-sell-camera-1 {
+	width: 125px;
+}
+
+.img-sell-camera-2 {
+	width: 150px;
+}
+
+.img-sell-grater {
+	height: 100px;
+}
+
+.background-white {
+	background-color: white;
+}
+
+.background-blue {
+	background-color: blue;
+	color: white;
+}
+
+
+
+
+
+
+
